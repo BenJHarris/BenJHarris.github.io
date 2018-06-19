@@ -63,37 +63,17 @@ body {
 }
 
 .rainbow:hover path {
-    animation: rainbow 3s linear infinite;
+    animation: rainbow 2s linear infinite;
 }
 
 @keyframes rainbow {
-    0% {
-        color: red;
-    }
-    
-    17% {
-        color: #FF0;
-    }
-    
-    33% {
-        color: #0F0;
-    }
-    
-    50% {
-        color: #0FF;
-    }
-    
-    67% {
-        color: #00F;
-    }
-    
-    84% {
-        color: #F0F;
-    }
-    
-    100% {
-        color: red;
-    }
+    0% { fill: red; }
+    17% { fill: #FF0; }
+    33% { fill: #0F0; }
+    50% { fill: #0FF; }
+    67% { fill: #00F; }
+    84% { fill: #F0F; }
+    100% { fill: red; }
 }
 
 .name {
