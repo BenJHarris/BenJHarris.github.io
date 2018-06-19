@@ -63,7 +63,7 @@ body {
 }
 
 .rainbow:hover path {
-    animation: rainbow 3s linear infinite alternate;
+    animation: rainbow 3s linear infinite;
 }
 
 @keyframes rainbow {
