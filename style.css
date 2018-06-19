@@ -6,7 +6,8 @@ body {
     margin: 0px;
     width: 100%;
     position: fixed;
-    background: linear-gradient(270deg, hsl(50, 100%, 70%), hsl(320, 100%, 50%));
+    /* background: linear-gradient(270deg, hsl(50, 100%, 70%), hsl(320, 100%, 50%)); */
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
     background-size: 400% 400%;
     background-position: center;
 }
@@ -44,9 +45,10 @@ body {
 
 .contents {
     grid-area: contents;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: white;
     border-radius: 10px;
     padding: 1vw;
+    box-shadow: 0 6px 15px rgba(36,37,38,0.08);
 }
 
 .lockup {
